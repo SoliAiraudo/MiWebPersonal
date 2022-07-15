@@ -303,10 +303,17 @@ article p{
 .transform:hover{
     transform: translate(50px);
     cursor: pointer;
+    transition: transform 1s;
 }
 
 .scale:hover{
     transform: scale(1.5);
+}
+
+.translate:hover{
+    transform: translate(100px);
+    cursor: pointer;
+    transition: transform 1s;
 }
 
 
